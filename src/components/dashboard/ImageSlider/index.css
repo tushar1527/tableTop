@@ -1,0 +1,64 @@
+@-webkit-keyframes slide {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.slides {
+  margin-top: 100px;
+  animation: slide 0.4s ease-in-out;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px;
+}
+.slick-prev {
+  left: -65px;
+  width: auto;
+  height: auto;
+}
+.slick-next {
+  right: -65px;
+  width: auto;
+  height: auto;
+}
+.hero-slider .carousel-control-next {
+  right: -50px;
+  background: #000;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  opacity: 1;
+}
+.hero-slider .carousel-control-prev {
+  left: -50px;
+  background: #000;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  opacity: 1;
+}
+.hero-slider.carousel {
+  height: 768px !important;
+  width: 100% !important;
+  max-width: 1350px;
+  margin: 0 auto;
+  position: absolute;
+  top: 150px;
+}
+.hero-slider.carousel .carousel-inner {
+  max-width: 1300px;
+  margin: 0 auto;
+}

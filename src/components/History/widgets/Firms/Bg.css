@@ -1,0 +1,225 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.abc ::before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 84vh;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: -99;
+  position: relative;
+  filter: brightness(75%);
+}
+.person-detail {
+  display: inline-block;
+}
+.person-detail img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.person {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 400px;
+  top: 60px;
+  position: fixed;
+  z-index: 99999;
+}
+.popover {
+  position: absolute;
+  right: -360px;
+  margin-top: 100px;
+  /* max-height: 800px;
+ */
+  overflow-y: visible;
+  /* min-width: 900px; */
+  background-color: transparent;
+  border: none;
+  min-height: 300px;
+  z-index: 999;
+}
+.popover-content {
+  width: 500px;
+  height: 200px;
+  animation: slideIn 0.5s linear;
+  background: rgb(12, 35, 60);
+  color: white;
+  padding: 24px;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+}
+.popover-content span {
+  padding: 0;
+}
+
+.popover-inner-content {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  position: absolute;
+  right: -400px;
+  top: -80px;
+  z-index: 999999;
+  flex-direction: column;
+  animation: slideIn 0.5s linear;
+  background: rgb(12, 35, 60);
+  color: white;
+  padding: 30px 24px 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.popover > div:first-child .popover-inner-content {
+  top: 0px;
+}
+.popover-inner-content iframe {
+  margin-top: 24px;
+  height: 250px;
+}
+.popoverclose {
+  position: absolute;
+  right: 15px;
+  top: 2px;
+}
+.popover-inner-content .popoverclose {
+  top: -24px;
+  right: 0px;
+}
+.popoverclose svg,
+.yearboxcontent svg {
+  width: 2em;
+  height: 2em;
+}
+@keyframes slideIn {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.m-2 {
+  margin: 15px !important;
+}
+.scroll-invisible {
+  display: flex;
+  overflow: auto;
+  max-width: 5680px;
+  padding-right: 5%;
+  padding-left: 2%;
+  position: fixed;
+  bottom: 15%;
+  z-index: 99;
+}
+.cityname {
+  position: relative;
+  justify-content: center;
+  transform: scaleY(1);
+  color: white;
+  text-shadow: 2px 2px black;
+  letter-spacing: 1;
+  font-weight: bold;
+  z-index: 99;
+}
+.cityname span {
+  padding: 10px;
+}
+.cityname span:last-child .popover .popover-inner-content,
+.cityname span:nth-child(12) .popover .popover-inner-content,
+.cityname span:nth-child(11) .popover .popover-inner-content,
+.cityname span:nth-child(10) .popover .popover-inner-content,
+.cityname span:nth-child(9) .popover .popover-inner-content,
+.cityname span:nth-child(8) .popover .popover-inner-content {
+  right: unset;
+  left: -400px;
+}
+.cityname span:last-child .popover,
+.cityname span:nth-child(12) .popover,
+.cityname span:nth-child(11) .popover,
+.cityname span:nth-child(10) .popover,
+.cityname span:nth-child(9) .popover,
+.cityname span:nth-child(8) .popover {
+  overflow-x: visible;
+  right: unset;
+  left: -360px;
+}
+.cityname span:first-child .popover div:nth-child(4) .popover-inner-content {
+  top: -100px;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  outline: none;
+}
+.year-box {
+  min-height: 300px;
+  min-width: 250px;
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3366ff;
+  top: 300px;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size: 36px;
+  box-shadow: "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px";
+  font-weight: bold;
+
+  word-break: break-word;
+  margin: 0 15px;
+  position: relative;
+  top: 0;
+}
+.year-box .yearlist {
+  min-height: 300px;
+  min-width: 220px;
+  max-width: 220px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: keep-all;
+  line-height: normal;
+}
+.yearboxcontent {
+  height: 300px;
+  width: 250px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 0.5s linear;
+  background: rgb(12, 35, 60);
+  color: white;
+  font-size: 36px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-weight: bold;
+  padding: 30px 10px;
+}
+.yearboxcontent svg {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.slick-slider video {
+  width: 100vw;
+}

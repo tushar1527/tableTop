@@ -1,0 +1,554 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: transparent;
+    z-index: 0;
+    
+}
+.wrapper1{
+    position: relative;
+    left:80px;
+   
+}
+.box1{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 120px;
+    top: 39px;
+   animation: scaling 2.5s ease-in-out infinite;
+   animation-delay: 2s;
+}
+@keyframes scaling {
+   0%,100%{
+       transform: scale(0.2);
+   }
+   50%{
+       transform: scale(1);
+   }
+}
+.box2{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 137px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 0.2s;
+    
+}
+.box3{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 153px;
+    top: -39px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 0.4s;
+}
+.box4{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 170px;
+    top: -78px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 0.6;
+}
+.wrapper2{
+    position: relative;
+    top: -150px;
+    right: -900px;
+}
+.wrapper3{
+    position: relative;
+    top: -190px;
+    right: 80px;
+}
+.wrapper4{
+    position: relative;
+    top: -250px;
+    left: 150px;
+}
+.wrapper5{
+    position: relative;
+    top: -510px;
+    left: 660px;
+}
+.wrapper6{
+    position: relative;
+    top: -400px;
+    left: 250px;
+}
+.wrapper7{
+    position: relative;
+    top: -650px;
+    left: 800px;
+}
+.wrapper8{
+    position: relative;
+    top: -700px;
+    left: 1000px;
+}
+.wrapper9{
+    position: relative;
+    top: -750px;
+    left: -30px;
+}
+.wrapper10{
+    position: relative;
+    top: -900px;
+    left: 900px;
+}
+.box5{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 120px;
+    top: 39px;
+   animation: scaling 2.5s ease-in-out infinite;
+   animation-delay: 1.4s;
+}
+.box6{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 137px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 1.6s;
+    
+}
+.box7{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 153px;
+    top: -39px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 1.8s;
+}
+.box8{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 170px;
+    top: -78px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 2s;
+}
+.box9{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 120px;
+    top: 39px;
+   animation: scaling 2.5s ease-in-out infinite;
+   animation-delay: 2.2s;
+}
+.box10{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 137px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 2.6s;
+    
+}
+.box11{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 153px;
+    top: -39px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 3.0s;
+}
+.box12{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 170px;
+    top: -78px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 3.4s;
+}
+.box13{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 120px;
+    top: 39px;
+   animation: scaling 2.5s ease-in-out infinite;
+   animation-delay: 1.0s;
+}
+.box14{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 137px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 1.8s;
+    
+}
+.box15{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 153px;
+    top: -39px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 2.6s;
+}
+.box16{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 170px;
+    top: -78px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 3.2s;
+}
+.box17{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 120px;
+    top: 39px;
+   animation: scaling 2.5s ease-in-out infinite;
+   animation-delay: 1s;
+}
+.box18{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 137px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 2s;
+    
+}
+.box19{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 153px;
+    top: -39px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 3s;
+}
+.box20{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 170px;
+    top: -78px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 4s;
+}
+.box21{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 120px;
+    top: 39px;
+   animation: scaling 2.5s ease-in-out infinite;
+   animation-delay: 1.3s;
+}
+.box22{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 137px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 2.6s;
+    
+}
+.box23{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 153px;
+    top: -39px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 3.9s;
+}
+.box24{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 170px;
+    top: -78px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 5.2s;
+}
+.box25{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 120px;
+    top: 39px;
+   animation: scaling 2.5s ease-in-out infinite;
+   animation-delay: 0.3s;
+}
+.box26{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 137px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 0.6s;
+    
+}
+.box27{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 153px;
+    top: -39px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 0.9s;
+}
+.box28{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 170px;
+    top: -78px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 1.2s;
+}
+.box29{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 120px;
+    top: 39px;
+   animation: scaling 2.5s ease-in-out infinite;
+   animation-delay: 2.0s;
+}
+.box30{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 137px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 1.8s;
+    
+}
+.box31{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 153px;
+    top: -39px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 2.6s;
+}
+.box32{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 170px;
+    top: -78px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 3.2s;
+}
+.box33{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 120px;
+    top: 39px;
+   animation: scaling 2.5s ease-in-out infinite;
+   animation-delay: 1s;
+}
+.box34{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 137px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 2s;
+    
+}
+.box35{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 153px;
+    top: -39px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 3s;
+}
+.box36{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 170px;
+    top: -78px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 4s;
+}
+.box37{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 120px;
+    top: 39px;
+   animation: scaling 2.5s ease-in-out infinite;
+   animation-delay: 1s;
+}
+.box38{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 137px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 2s;
+    
+}
+.box39{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 153px;
+    top: -39px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 3s;
+}
+.box40{
+    height: 15px;
+    width: 10px;
+    border: 2px solid rgb(12,44,195);
+    background-color: transparent;
+    margin: 20px;
+    position: relative;
+    left: 170px;
+    top: -78px;
+    animation: scaling 2.5s ease-in-out infinite;
+    animation-delay: 4s;
+}
